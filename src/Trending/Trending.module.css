@@ -1,0 +1,42 @@
+.TrendingWrapperMain{
+    display: flex; 
+    justify-content: space-between;
+    padding: 35px 36px 0px 36px;
+    background-color: white;
+}
+    
+
+.TrendingWrapper{
+    display: flex;
+    cursor: pointer ; 
+    
+}  
+.TrendingWrapperChild{
+margin-right: 15px;
+
+} 
+.TrendingWrapperChild:hover{
+    font-weight : 500 ; 
+    
+    } 
+    .TrendingWrapperChild:active{
+        font-weight : 500 ; 
+        
+        } 
+
+
+.Hyperlink{
+    text-decoration: none;
+    outline : none ; 
+    color : black ; 
+ 
+} 
+.icon2{
+    margin-left: 18px ; 
+    cursor: pointer;
+} 
+
+.icon1{
+    cursor: pointer;
+}
+

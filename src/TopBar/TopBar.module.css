@@ -1,0 +1,59 @@
+.TopbarWrapper{
+
+height:  63px;
+width  : 100% ; 
+background-color: whitesmoke; 
+display: flex; 
+justify-content: space-between; 
+padding : 0 30px ; 
+align-items: center; 
+box-sizing: border-box; 
+border-top-right-radius : 12px ; 
+border-top-left-radius : 12px ; 
+box-shadow: 1px 1px 0px lightgrey;
+} 
+.TopbarItemWrapper{
+width: 40%;
+display: flex; 
+justify-content: space-between; 
+align-items: center;
+cursor: pointer;
+
+} 
+.TopbarItemWrapper > div:hover  {
+color: lightgrey;
+
+
+}
+
+
+.submitButton{
+    padding: 10px 18px;
+    background-color: white;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    border : 0.8px solid lightgray ; 
+} 
+
+.submitButton:hover{
+    border: 0.8px solid grey ; 
+    font-weight  : 400 ; 
+}
+
+.cameraIcon{
+ 
+font-size  : 30px ; 
+cursor :pointer ; 
+
+} 
+.dots{
+
+    margin-bottom : 9px ; 
+} 
+.userImage{
+    height : 30px ; 
+    width  : 30px ; 
+    border-radius: 50%; 
+    border : none ; 
+}
